@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --open --config webpack.dev.js",
-    "prd": "webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js",
     "deploy": "./deploy.sh"
   },
   "repository": {
