@@ -6,6 +6,27 @@
     <title>Odin Weather App</title>
   </head>
   <body>
-    <h1 class="text-4xl text-center bg-amber-400">Test</h1>
+    <h1 class="text-4xl text-center bg-amber-400 my-5">Weather</h1>
+    <div class="border border-black p-3 w-fit mx-auto mb-4">
+      <button class="current border border-black px-2 my-3 mx-3">
+        Current location
+      </button>
+      <form class="my-3 mx-3">
+        <label for="location">Enter Your location</label>
+        <input
+          type="text"
+          name="location"
+          id="location"
+          class="border border-black px-2"
+        />
+        <button type="submit" class="border border-black px-2">
+          get Weather
+        </button>
+      </form>
+    </div>
+    <div class="container flex w-screen mx-auto">
+      <div class="data w-[50%]"></div>
+      <div class="giphy w-[50%]"></div>
+    </div>
   </body>
 </html>
